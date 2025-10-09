@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>メモ帳</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>📝 メモ帳</header>
+
+<div class="controls">
+  <select id="pageSelect"></select>
+  <button class="add-btn">✙ 新しいページ</button>
+  <button class="clear-btn">× このページを削除</button>
+</div>
+
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="タイトル・本文から全文検索..." />
+  <button id="searchButton">🔍 検索</button>
+</div>
+<div id="searchCount"></div>
+<div id="searchResults"></div>
+
+<div class="editor-container">
+  <div class="editor-page">
+    <textarea id="editorArea" placeholder="ここに文章を入力..."></textarea>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
