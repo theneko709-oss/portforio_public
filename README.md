@@ -13,7 +13,7 @@
 
 ## 技術スタック
 - HTML / CSS
-- Vanilla JavaScript（フレームワーク不使用）
+- JavaScript
 - LocalStorage
 
 ## 工夫した点
